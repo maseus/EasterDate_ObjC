@@ -32,10 +32,10 @@
 #define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0f)
 
 /** @brief Macro per il riconoscimento di dispositivo iPad Air, Air 2, Pro 9,7 pollici. */
-#define IS_IPAD_AIR (IS_IPAD && MAX(SCREEN_WIDTH, SCREEN_HEIGHT) == 1024.0f)
+#define IS_IPAD_AIR (IS_IPAD && SCREEN_MAX_LENGTH == 1024.0f)
 
 /** @brief Macro per il riconoscimento di dispositivo iPad Pro 12,9 pollici. */
-#define IS_IPAD_PRO (IS_IPAD && MAX(SCREEN_WIDTH, SCREEN_HEIGHT) == 1366.0f)
+#define IS_IPAD_PRO (IS_IPAD && SCREEN_MAX_LENGTH == 1366.0f)
 
 /** @brief Macro per il calcolo della larghezza del display del dispositivo. */
 #define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
@@ -58,7 +58,10 @@
 /** @brief Macro per il riconoscimento di versione di iOS uguale o superiore alla 9. */
 #define IS_OS_9_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0f)
 
-/** @brief Macro per la rotazione dei testi. */
+/** @brief Macro per il riconoscimento di versione di iOS uguale o superiore alla 10. */
+#define IS_OS_10_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0f)
+
+/** @brief Macro per la conversione da gradi a radianti. */
 #define DEGREES_TO_RADIANS(x) (M_PI * x / 180.0f)
 
 /** @brief Macro per la creazione di un testo parametrico. */

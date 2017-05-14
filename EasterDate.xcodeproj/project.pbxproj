@@ -37,8 +37,6 @@
 		901AA2AB1EAD104A00A1FAB1 /* DRPLoadingSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 901AA2A81EAD104A00A1FAB1 /* DRPLoadingSpinner.m */; };
 		901AA2AC1EAD104A00A1FAB1 /* DRPRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 901AA2AA1EAD104A00A1FAB1 /* DRPRefreshControl.m */; };
 		901AA2AF1EAD105600A1FAB1 /* ACFloatingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 901AA2AE1EAD105600A1FAB1 /* ACFloatingTextField.m */; };
-		901AA2B41EAD106100A1FAB1 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 901AA2B11EAD106100A1FAB1 /* TPKeyboardAvoidingScrollView.m */; };
-		901AA2B51EAD106100A1FAB1 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 901AA2B31EAD106100A1FAB1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		901AA2B71EAD111900A1FAB1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901AA2B61EAD111900A1FAB1 /* SystemConfiguration.framework */; };
 		901AA2BE1EAD1B8900A1FAB1 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 901AA2B81EAD1B8900A1FAB1 /* icon-76.png */; };
 		901AA2BF1EAD1B8900A1FAB1 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901AA2B91EAD1B8900A1FAB1 /* icon-76@2x.png */; };
@@ -67,6 +65,8 @@
 		905D541A1EADFA0500342E8D /* SplashController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905D54191EADFA0500342E8D /* SplashController_iPad.xib */; };
 		905D54211EADFDEF00342E8D /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905D54201EADFDEF00342E8D /* MainController.xib */; };
 		905D54241EADFE0D00342E8D /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905D54231EADFE0D00342E8D /* MainController.m */; };
+		90A38B2D1EC89B14009F9A61 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A38B2A1EC89B14009F9A61 /* TPKeyboardAvoidingScrollView.m */; };
+		90A38B2E1EC89B14009F9A61 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A38B2C1EC89B14009F9A61 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		90DCA8D71EB4C71400A396BD /* MainController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DCA8D61EB4C71400A396BD /* MainController_iPad.xib */; };
 		90DCA8D91EB4CA9900A396BD /* InfoController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DCA8D81EB4CA9900A396BD /* InfoController_iPad.xib */; };
 		90ED7D841EAE2FE300DD20C1 /* InfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90ED7D831EAE2FE300DD20C1 /* InfoController.m */; };
@@ -126,10 +126,6 @@
 		901AA2AA1EAD104A00A1FAB1 /* DRPRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRPRefreshControl.m; path = Libraries/CustomLoading/DRPRefreshControl.m; sourceTree = "<group>"; };
 		901AA2AD1EAD105600A1FAB1 /* ACFloatingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACFloatingTextField.h; path = Libraries/FloatingTextField/ACFloatingTextField.h; sourceTree = "<group>"; };
 		901AA2AE1EAD105600A1FAB1 /* ACFloatingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACFloatingTextField.m; path = Libraries/FloatingTextField/ACFloatingTextField.m; sourceTree = "<group>"; };
-		901AA2B01EAD106100A1FAB1 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = Libraries/KeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
-		901AA2B11EAD106100A1FAB1 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = Libraries/KeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
-		901AA2B21EAD106100A1FAB1 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "Libraries/KeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
-		901AA2B31EAD106100A1FAB1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "Libraries/KeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		901AA2B61EAD111900A1FAB1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		901AA2B81EAD1B8900A1FAB1 /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "Assets/Icons/icon-76.png"; sourceTree = "<group>"; };
 		901AA2B91EAD1B8900A1FAB1 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "Assets/Icons/icon-76@2x.png"; sourceTree = "<group>"; };
@@ -160,6 +156,10 @@
 		905D54201EADFDEF00342E8D /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainController.xib; path = Classes/Views/iPhone/MainController.xib; sourceTree = "<group>"; };
 		905D54221EADFE0300342E8D /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainController.h; path = Classes/Interfaces/MainController.h; sourceTree = "<group>"; };
 		905D54231EADFE0D00342E8D /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainController.m; path = Classes/Implementations/MainController.m; sourceTree = "<group>"; };
+		90A38B291EC89B14009F9A61 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = Libraries/KeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		90A38B2A1EC89B14009F9A61 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = Libraries/KeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		90A38B2B1EC89B14009F9A61 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "Libraries/KeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		90A38B2C1EC89B14009F9A61 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "Libraries/KeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		90DCA8D61EB4C71400A396BD /* MainController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainController_iPad.xib; path = Classes/Views/iPad/MainController_iPad.xib; sourceTree = "<group>"; };
 		90DCA8D81EB4CA9900A396BD /* InfoController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoController_iPad.xib; path = Classes/Views/iPad/InfoController_iPad.xib; sourceTree = "<group>"; };
 		90ED7D821EAE2FD700DD20C1 /* InfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoController.h; path = Classes/Interfaces/InfoController.h; sourceTree = "<group>"; };
@@ -312,7 +312,7 @@
 			children = (
 				901AA2A01EAD0FFE00A1FAB1 /* CustomLoading */,
 				901AA2A11EAD100500A1FAB1 /* FloatingTextField */,
-				901AA2A21EAD100D00A1FAB1 /* KeyboardAvoiding */,
+				90A38B281EC89AF2009F9A61 /* KeyboardAvoiding */,
 				901AA2A31EAD101500A1FAB1 /* KSToastView */,
 			);
 			name = Libraries;
@@ -429,17 +429,6 @@
 			name = FloatingTextField;
 			sourceTree = "<group>";
 		};
-		901AA2A21EAD100D00A1FAB1 /* KeyboardAvoiding */ = {
-			isa = PBXGroup;
-			children = (
-				901AA2B01EAD106100A1FAB1 /* TPKeyboardAvoidingScrollView.h */,
-				901AA2B11EAD106100A1FAB1 /* TPKeyboardAvoidingScrollView.m */,
-				901AA2B21EAD106100A1FAB1 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
-				901AA2B31EAD106100A1FAB1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
-			);
-			name = KeyboardAvoiding;
-			sourceTree = "<group>";
-		};
 		901AA2A31EAD101500A1FAB1 /* KSToastView */ = {
 			isa = PBXGroup;
 			children = (
@@ -447,6 +436,17 @@
 				901AA2A51EAD102C00A1FAB1 /* KSToastView.m */,
 			);
 			name = KSToastView;
+			sourceTree = "<group>";
+		};
+		90A38B281EC89AF2009F9A61 /* KeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				90A38B291EC89B14009F9A61 /* TPKeyboardAvoidingScrollView.h */,
+				90A38B2A1EC89B14009F9A61 /* TPKeyboardAvoidingScrollView.m */,
+				90A38B2B1EC89B14009F9A61 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				90A38B2C1EC89B14009F9A61 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = KeyboardAvoiding;
 			sourceTree = "<group>";
 		};
 		E16B81780115144214E64DD5 /* Pods */ = {
@@ -492,6 +492,7 @@
 				TargetAttributes = {
 					901AA2211EACFAB200A1FAB1 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TG5CZB48E2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -628,16 +629,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				901AA2A61EAD102C00A1FAB1 /* KSToastView.m in Sources */,
-				901AA2B41EAD106100A1FAB1 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				905D54241EADFE0D00342E8D /* MainController.m in Sources */,
 				901AA2EF1EADF63C00A1FAB1 /* SplashController.m in Sources */,
+				90A38B2E1EC89B14009F9A61 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				901AA2AF1EAD105600A1FAB1 /* ACFloatingTextField.m in Sources */,
 				901AA28D1EAD0A9000A1FAB1 /* Utilities.m in Sources */,
-				901AA2B51EAD106100A1FAB1 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				901AA2AC1EAD104A00A1FAB1 /* DRPRefreshControl.m in Sources */,
 				901AA2741EAD05C400A1FAB1 /* AppDelegate.m in Sources */,
 				901AA2271EACFAB200A1FAB1 /* main.m in Sources */,
 				901AA2AB1EAD104A00A1FAB1 /* DRPLoadingSpinner.m in Sources */,
+				90A38B2D1EC89B14009F9A61 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				90ED7D931EAF4C9A00DD20C1 /* AlgorithmController.m in Sources */,
 				90ED7D841EAE2FE300DD20C1 /* InfoController.m in Sources */,
 			);
@@ -776,14 +777,14 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TG5CZB48E2;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/share/include/libxml2,
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = /Users/eustachiomaselli/Desktop/Personale/iOS/EasterDate/EasterDate/Base.lproj/Info.plist;
+				INFOPLIST_FILE = "/Users/eustachiomaselli/Desktop/Personale/iOS/Objective-C/EasterDate/EasterDate/Base.lproj/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
@@ -801,14 +802,14 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TG5CZB48E2;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/share/include/libxml2,
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = /Users/eustachiomaselli/Desktop/Personale/iOS/EasterDate/EasterDate/Base.lproj/Info.plist;
+				INFOPLIST_FILE = "/Users/eustachiomaselli/Desktop/Personale/iOS/Objective-C/EasterDate/EasterDate/Base.lproj/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";

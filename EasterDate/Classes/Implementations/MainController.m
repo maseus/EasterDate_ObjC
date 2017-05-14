@@ -178,7 +178,7 @@
     }
     else
     {
-        //Notifica il mancato inserimento di uno sconto.
+        //Notifica il mancato inserimento di un anno.
         [Utilities showToast: @"WrongYearAlert"];
         
         //Nasconde il risultato finale.
@@ -236,7 +236,7 @@
         }
         else
         {
-            //Notifica il mancato inserimento di uno sconto.
+            //Notifica il mancato inserimento di un anno.
             [Utilities showToast: @"WrongYearAlert"];
             
             //Nasconde il risultato finale.

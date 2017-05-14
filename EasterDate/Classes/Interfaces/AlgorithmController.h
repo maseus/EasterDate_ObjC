@@ -14,8 +14,10 @@
     IBOutlet UIWebView *algorithmContent;
     
     /** @brief Indicatore di comunicazione con il server. */
-    UIView *viewOverlay;
     DRPLoadingSpinner *serverProgress;
+    
+    //Overlay associato alla comunicazione con il server. */
+    UIView *viewOverlay;
 }
 
 /** @brief WebView principale di riferimento. */

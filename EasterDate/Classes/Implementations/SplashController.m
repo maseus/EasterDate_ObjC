@@ -38,7 +38,7 @@
  */
 - (void) viewDidLoad
 {
-    //Invocato il metodo della superc lasse.
+    //Invocato il metodo della superclasse.
     [super viewDidLoad];
     
     //Disattiva il ritorno alla schermata precedente usando la gesture di swipe verso sinistra.
